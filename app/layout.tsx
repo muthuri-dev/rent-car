@@ -3,6 +3,7 @@ import {Raleway} from 'next/font/google'
 import './globals.css';
 import {ClerkProvider, SignedIn, SignedOut, SignIn} from "@clerk/nextjs";
 import Navbar from "@/components/Navbar";
+import React from "react";
 
 const inter = Raleway({subsets: ['latin']})
 
